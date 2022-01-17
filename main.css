@@ -131,10 +131,11 @@ body.height{
     height: auto;
 }
 .column{
+    margin-top: 5em;
     position: relative;
-    top: 25%;
+    top: 40%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 
 }
