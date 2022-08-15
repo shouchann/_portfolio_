@@ -32,6 +32,9 @@
     width:100%;
 }
 @media screen and (min-width: 481px){ 
+    body#about{
+        overflow: scroll;
+    }
     body.height{
         height: 80vh;
         overflow: hidden;
@@ -113,8 +116,8 @@
     .my-parts {
         margin: -6em 0 0 auto;
         padding: 0;
-        width: 400px;
-        height: 400px;
+        width: 432px;
+        height: 432px;
         border-radius: 100% 0 0 0;
         background: #909090;
     }
@@ -136,6 +139,7 @@
         position: relative;
         top: 40%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
 
@@ -147,7 +151,27 @@
         list-style: none;
     }
     li.int_item p{
-        font-size: 40px;
+        font-size: 2vw;
+    }
+    .jobhis{
+        width: 100%;
+        margin-left: 4em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    h2.w_ti{
+        font-size: 2vw;
+    }
+    .jobhis ul{
+        width: 60%;
+    }
+    ul.joyful li,ul.Karapo li{
+        list-style: none;
+        margin-left: 10em;
+        font-size: 1.3vw;
     }
     /* work.css */
     body.work{
@@ -381,5 +405,13 @@
     }
 }
 @media screen and (max-width: 480px){
+    .my-parts{
+        display: none;
+    }
+    .border{
+        width: 30vw;
+        border-bottom: solid 1px #909090;
+    }
+    /* about */
     
 }
